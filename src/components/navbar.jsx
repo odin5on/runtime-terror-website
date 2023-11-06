@@ -7,8 +7,10 @@ function Navbar() {
   return (
     <div className="flex w-full justify-around border-b-2 border-black">
       <button onClick={() => navigate("/")}>Home</button>
-      <button onClick={() => navigate("/page1")}>Page 1</button>
-      <button onClick={() => navigate("/page2")}>Page 2</button>
+      <button onClick={() => navigate("/danny")}>Danny</button>
+      <button onClick={() => navigate("/jordin")}>Jordin</button>
+      <button onClick={() => navigate("/addie")}>Addie</button>
+      <button onClick={() => navigate("/nina")}>Nina</button>
     </div>
   );
 }
