@@ -1,6 +1,6 @@
 import React from "react";
 
-function Page1() {
+function Danny() {
   return (
     <div>
       <h1>Hello from Danny!</h1>
@@ -8,4 +8,4 @@ function Page1() {
   );
 }
 
-export default Page1;
+export default Danny;

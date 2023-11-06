@@ -1,6 +1,6 @@
 import React from "react";
 
-function Page1() {
+function Jordin() {
   return (
     <div>
       <h1>Hello from Jordin!</h1>
@@ -8,4 +8,4 @@ function Page1() {
   );
 }
 
-export default Page1;
+export default Jordin;
