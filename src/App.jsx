@@ -1,17 +1,16 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import your other pages and the Navbar
-import Navbar from './components/navbar';
-import HomePage from './homepage';
-import Danny from './pages/danny';
-import Jordin from './pages/jordin';
-import Addie from './pages/addie';
-import Nina from './pages/nina';
+import Navbar from "./components/navbar";
+import HomePage from "./homepage";
+import Danny from "./pages/danny";
+import Jordin from "./pages/jordin";
+import Addie from "./pages/addie";
+import Nina from "./pages/nina";
 
 function App() {
   return (
-    <Router basename='/runtime-terror-website'>
+    <Router basename="/runtime-terror-website">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
