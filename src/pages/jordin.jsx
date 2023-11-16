@@ -14,31 +14,32 @@ const Jordin = () => {
           <img src= {statue} alt="Profile" />
         </div>
         <div className="header-text">
-          <h1>Jordin Eicher</h1>
-          <p>AKA Linux Wizard</p>
+          <h1><strong>Jordin Eicher</strong></h1>
+          <p><i>AKA Linux Wizard</i></p>
         </div>
+        
       </header>
-      <br></br>
+      
 
       {/* About Me Section */}
       <section className="about-me">
-        <h2><b>About Me</b></h2>
+        <h2>About Me</h2>
         <p>
           <i>
           I am a passionate web developer with a strong background in developing an even stronger background. 
           </i>
         </p>
       </section>
-      <br></br>
+     
       
       {/* Skills Section */}
       <section className="skills">
-        <h2><b>What am I proud of?</b></h2>
+        <h2>What am I proud of?</h2>
         <ul>
           <li><i>"I am proud of I never give up" - Khabib Nurmagomedov</i></li>
         </ul>
       </section>
-      <br></br>
+      
 
       {/* Projects Section */}
       <section className="projects">
@@ -52,22 +53,28 @@ const Jordin = () => {
           <p>Description of Project 2.</p>
         </div>
       </section>
-      <br></br>
+     
 
       {/* Contact Section */}
       <section className="contact">
         <h2>Contact</h2>
-        <p>Email: jayike1010@gmail.com</p>
-        <p>LinkedIn: <a href="www.linkedin.com/in/jordin-eicher">Jordin's LinkedIn</a></p>
-        <p>GitHub: <font><a href="github.com/jayike">Jordin's GitHub</a></font></p>
+        <div>
+        <dl>
+          <dt>Personal Email:</dt>
+          <dd><a href="mailto:jayike1010@gmail.com">jayike1010@gmail.com</a></dd>
+          <dt>LinkedIn:</dt>
+          <dd><a href="https://www.linkedin.com/in/jordin-eicher" target="_blank">linkedin.com/in/jordin-eicher</a></dd>
+          <dt>GitHub:</dt>
+          <dd><a href="https://www.github.com/jayike" target="_blank">github.com/jayike</a></dd>
+        </dl>
+        </div>
       </section>
-      <br></br>
 
       {/* Footer Section */}
       <footer>
-        <p>&copy; 2023 Jay Ike. All rights reserved.</p>
+        <p>&copy; 2023 Runtime Terror. All rights reserved.</p>
       </footer>
-    </div>
+      </div>
   );
 };
 
