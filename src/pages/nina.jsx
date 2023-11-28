@@ -4,7 +4,7 @@ function Nina() {
   return (
     <div>
       <h1>Hello from Nina!</h1>
-      <div style = {{marginTop: "2in", felxDirection: "column", alighnItems: "flex-end", paddingLeft: "2in"}}>
+      <div style = {{marginTop: "1in", display: "flex", felxDirection: "column", alighnItems: "flex-end", paddingLeft: "2in"}}>
         <img src = "src/pages/IMG_3307.jpeg" 
              alt = "My puppy!"
              style = {{width: "300px", marginRight: "0.5cm"}}
