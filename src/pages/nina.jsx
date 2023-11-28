@@ -4,6 +4,9 @@ function Nina() {
   return (
     <div>
       <h1>Hello from Nina!</h1>
+      <img src = "src/pages/Screen Shot 2023-11-10 at 9.51.00 AM.png"
+           style = {{width: "150px"}}
+        />
       <div style = {{marginTop: "2in", display: "flex", felxDirection: "column", alighnItems: "flex-end", paddingLeft: "2in"}}>
         <img src = "src/pages/IMG_3307.jpeg" 
              alt = "My puppy!"
