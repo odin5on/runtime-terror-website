@@ -3,7 +3,7 @@ import React from "react";
 function Nina() {
   return (
     <div>
-      <h1 style = {{ fontWeight: "bold", fontSytle: "24px"}}>Nina Baffo</h1>
+      <h1 style = {{ fontWeight: "bold", fontSytle: "50px"}}> Nina Baffo</h1>
 
       <div style={{ display: "flex", alignItems: "center" }}>
       <img src = "src/pages/Screen Shot 2023-11-10 at 9.51.00 AM.png"
