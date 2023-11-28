@@ -1,0 +1,8 @@
+.image-cotainer{
+    display: flex;
+}
+
+.image-container img {
+    width: 150px;  /* adjusting width */
+    margin-right: 10px; /* adding space between images */
+}
