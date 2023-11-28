@@ -2,9 +2,9 @@ import React from "react";
 
 function Nina() {
   return (
-    <div style = {{display: "flex", felxDirection: "column", alighnItems: "flex-end", paddingLeft: "2in"}}>
+    <div>
       <h1>Hello from Nina!</h1>
-      <div style = {{marginBottom: "1cm"}}>
+      <div style = {{display: "flex", felxDirection: "column", alighnItems: "flex-end", paddingLeft: "2in"}}>
         <img src = "src/pages/IMG_3307.jpeg" 
              alt = "My puppy!"
              style = {{width: "300px", marginRight: "0.5cm"}}
