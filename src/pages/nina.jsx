@@ -4,6 +4,9 @@ function Nina() {
   return (
     <div>
       <h1>Hello from Nina!</h1>
+      <img src = "Users/nbaffo/SDpictures/IMG_3307.jpeg" alt = "My puppy!"/>
+      <img src = "Users/nbaffo/SDpictures/IMG_5860.jpeg" alt = "Me with my mom and sisters."/>
+      <img src = "Users/nbaffo/SDpictures/IMG_8281.jpeg" alt = "The Bahamas"/>
     </div>
   );
 }
