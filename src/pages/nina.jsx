@@ -9,8 +9,8 @@ function Nina() {
       <img src = "src/pages/Screen Shot 2023-11-10 at 9.51.00 AM.png"
            style = {{width: "250px"}}
         />
-      <p style={{ marginLeft: "0.5cm", marginBottom: "3cm", fontWeight: "bold", fontSize: "20px"}}>About me:</p>
-      <p style={{ marginLeft: "1cm", marginBottom: "2cm", fontSize: "20px"}}>Hi and welcome to my page! My name is Nina, I am a senior this year majoring in Computer Science and Engineering. I'm from the southwest suburbs of chicago. </p>
+      <p style={{ marginLeft: "1cm", marginBottom: "3cm", fontWeight: "bold", fontSize: "17px"}}>About me:</p>
+      <p style={{ marginLeft: "1cm", marginBottom: "2cm", fontSize: "17px"}}>Hi and welcome to my page! My name is Nina, I am a senior this year majoring in Computer Science and Engineering. I'm from the southwest suburbs of chicago. </p>
       </div>
       <div style = {{marginTop: "2in", display: "flex", felxDirection: "column", alighnItems: "flex-end", paddingLeft: "2in"}}>
         <img src = "src/pages/IMG_3307.jpeg" 
