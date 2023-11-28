@@ -1,6 +1,6 @@
 import React from "react";
 import './styles.css';
-import statue from "./statue.jpg";
+import profile from "./profile.jpg";
 
 
 // Create a functional component for the personal profile page
@@ -11,7 +11,7 @@ const Jordin = () => {
       <header>
         <div className="profile-picture">
           {/* You can replace the placeholder image URL with your own */}
-          <img src= {statue} alt="Profile" />
+          <img src= {profile} alt="Profile" />
         </div>
         <div className="header-text">
           <h1><strong>Jordin Eicher</strong></h1>
@@ -26,7 +26,7 @@ const Jordin = () => {
         <h2>About Me</h2>
         <p>
           <i>
-          I am a passionate web developer with a strong background in developing an even stronger background. 
+          I am an Electrical Engineering major at the University of Iowa with focus in IoT. I have interned at Collins Aerospace in the Communications Hardware department and will start full-time as a Hardware Design Engineer (EE) following graduation. In my freetime, I enjoy watching MMA, learning history and philosophy, tinkering with electronics, and running.
           </i>
         </p>
       </section>
@@ -34,9 +34,9 @@ const Jordin = () => {
       
       {/* Skills Section */}
       <section className="skills">
-        <h2>What am I proud of?</h2>
+        <h2>Favorite Quote</h2>
         <ul>
-          <li><i>"I am proud of I never give up" - Khabib Nurmagomedov</i></li>
+          <li><i>"All the time people ask me, 'Brother, what are you proud of?', I say, I am very proud of... I never give up." - Khabib Nurmagomedov</i></li>
         </ul>
       </section>
       
