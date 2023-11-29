@@ -1,5 +1,5 @@
 import React from "react";
-import "./Addie.css";
+import "./addie.css";
 
 import image1 from './addie_pics/kev.jpeg';
 import image2 from './addie_pics/roomies.jpeg';
