@@ -19,7 +19,7 @@ function Nina() {
         
         <img src = "src/pages/IMG_3307.jpeg" style = {{width: "300px", marginRight: "1cm", marginBottom: "3cm"}} />
         <div>
-          <p style={{ fontSize: "17px" }}>This is my puppy, his name is Benny and he just turned 8 months old. He is the best dog in the world, I take him with me everywhere.</p></p>
+          <p style={{ fontSize: "17px" }}>This is my puppy, his name is Benny and he just turned 8 months old. He is the best dog in the world, I take him with me everywhere.</p>
         </div>
 
         <img src = "src/pages/IMG_5860.jpeg" style = {{width: "300px", marginRight: "1cm", marginBottom: "3cm"}}/>
@@ -30,6 +30,7 @@ function Nina() {
         <img src = "src/pages/IMG_8281.jpeg" style = {{width: "450px", marginBottom: "3cm"}}/>
         <div>
           <p style={{ fontSize: "17px" }}>This is a picture of when I went to the Bahamas. I love traveling to new places and expanding my knowledge about different areas of the world. </p>
+        </div>
       </div>
     </div>
   );
