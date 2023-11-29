@@ -3,8 +3,6 @@ import React from "react";
 function Nina() {
   return (
     <div>
-      <h1 style = {{fontWeight: "bold", fontSize: "24px"}}> Nina Baffo</h1>
-
       <div style={{ backgroundColor: "lightblue", padding: "10px", borderRadius: "5px", marginBottom: "10px", marginLeft: "1cm", marginRight: "1cm", display: "flex", alignItems: "center" }}>
         <img src = "src/pages/Screen Shot 2023-11-10 at 9.51.00 AM.png" style = {{width: "250px"}}/>
  
