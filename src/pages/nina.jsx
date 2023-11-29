@@ -3,7 +3,6 @@ import React from "react";
 function Nina() {
   return (
     <div>
-      <div style={{ backgroundColor: "lightpink", padding: "10px", borderRadius: "5px", marginBottom: "10px" }}></div>
       <h1 style = {{fontWeight: "bold", fontSize: "24px"}}> Nina Baffo</h1>
 
       <div style={{ backgroundColor: "lightblue", padding: "10px", borderRadius: "5px", marginBottom: "10px", marginLeft: "1cm", marginBottom: "1.5cm", display: "flex", alignItems: "center" }}>
