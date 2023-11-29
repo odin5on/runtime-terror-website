@@ -23,7 +23,7 @@ function Nina() {
            style = {{width: "300px", marginRight: "1cm", marginBottom: "3cm"}}
         />
       <img src = "src/pages/IMG_8281.jpeg"
-           style = {{width: "500px", marginBottom: "3cm"}}
+           style = {{width: "450px", marginBottom: "3cm"}}
         />
       </div>
     </div>
