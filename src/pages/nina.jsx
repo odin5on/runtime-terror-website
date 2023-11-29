@@ -15,7 +15,7 @@ function Nina() {
       I started off college as a Math Education major, but switched to Engineering second semester my sophmore year. I was nervous at first, but I am really glad I decided to push myself and pursue something out of my comfort zone. 
       I can't wait to see where my career takes me in the near future! </p>
       </div>
-      <div style = {{backgroundColor: "lightgreen", padding: "10px", borderRadius: "10px", marginBottom: "10px", marginLeft: "1cm", display: "flex", alignItems: "center", marginTop: "2in", display: "flex", felxDirection: "column", paddingLeft: "2in"}}>
+      <div style = {{backgroundColor: "mintgreen", padding: "10px", marginBottom: "10px", marginLeft: "1cm", display: "flex", alignItems: "center", marginTop: "2in", display: "flex", felxDirection: "column", paddingLeft: "2in"}}>
         <img src = "src/pages/IMG_3307.jpeg" 
              style = {{width: "300px", marginRight: "1cm", marginBottom: "3cm"}}
         />
