@@ -30,7 +30,6 @@ function Nina() {
         <img src = "src/pages/IMG_8281.jpeg" style = {{width: "450px", marginBottom: "3cm"}}/>
         <div>
           <p style={{ fontSize: "17px" }}>This is a picture of when I went to the Bahamas. I love traveling to new places and expanding my knowledge about different areas of the world. </p>
-        </div>
       </div>
     </div>
   );
