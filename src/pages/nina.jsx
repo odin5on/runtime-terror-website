@@ -1,8 +1,8 @@
 import React from "react";
-import puppyPic from "/Users/ninabaffo/runtime-terror-website/src/assets/NinasPics/puppy.jpeg";
-import profile from "/Users/ninabaffo/runtime-terror-website/src/assets/NinasPics/profilePic.png";
-import familyPic from "/Users/ninabaffo/runtime-terror-website/src/assets/NinasPics/family.jpeg";
-import bahamasPic from "/Users/ninabaffo/runtime-terror-website/src/assets/NinasPics/bahamas.jpeg";
+import puppyPic from "src/assets/NinasPics/puppy.jpeg";
+import profile from "src/assets/NinasPics/profilePic.png";
+import familyPic from "src/assets/NinasPics/family.jpeg";
+import bahamasPic from "src/assets/NinasPics/bahamas.jpeg";
 
 function Nina() {
   return (
