@@ -18,7 +18,7 @@ function Nina() {
       <div style = {{ backgroundColor: "lavender", padding: "10px", borderRadius: "5px", marginBottom: "10px", marginLeft: "1cm", display: "flex", alignItems: "center" }}>
         
         <img src = "src/pages/IMG_3307.jpeg" style = {{width: "300px", marginRight: "1cm", marginBottom: "3cm"}} />
-        <p style={{ backgroundColor: "lavender", padding: "10px", borderRadius: "5px", marginBottom: "10px", display: "flex", fontSize: "17px", display: "flex" }}>This is my puppy, his name is Benny and he just turned 8 months old. He is the best dog in the world, I take him with me everywhere.</p>
+        <p style={{ backgroundColor: "lavender", padding: "10px", borderRadius: "5px", fontSize: "17px", display: "flex" }}>This is my puppy, his name is Benny and he just turned 8 months old. He is the best dog in the world, I take him with me everywhere.</p>
         
         <img src = "src/pages/IMG_5860.jpeg" style = {{width: "300px", marginRight: "1cm", marginBottom: "3cm"}}/>
         <p style={{ backgroundColor: "lavender", padding: "10px", borderRadius: "5px", marginBottom: "10px", display: "flex", fontSize: "17px"}}>Pictured here is me, my mom, and sisters at an Iowa game this year. They are my best friends and I would do anything for them. I love my family very much.</p>
