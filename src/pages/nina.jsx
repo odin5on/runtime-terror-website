@@ -7,10 +7,13 @@ function Nina() {
 
       <div style={{ display: "flex", alignItems: "center" }}>
       <img src = "src/pages/Screen Shot 2023-11-10 at 9.51.00 AM.png"
-           style = {{width: "250px"}}
-        />
+           style = {{width: "250px"}}/>
+
       <p style={{ marginLeft: "1cm", marginBottom: "3cm", fontWeight: "bold", fontSize: "17px"}}>About me:</p>
+
+      <div style={{ backgroundColor: "lightpink", padding: "10px", borderRadius: "5px", marginBottom: "10px" }}></div>
       <p style={{ marginLeft: "1cm", marginBottom: "1.5cm", fontSize: "17px"}}>Hi and welcome to my page! My name is Nina, I'm from the southwest suburbs of chicago. I am a senior this year majoring in Computer Science and Engineering.
+      
       I started off college as a Math Education major, but switched to Engineering second semester my sophmore year. I was nervous at first, but I am really glad I decided to push myself and pursue something out of my comfort zone. 
       I can't wait to see where my career takes me in the near future! </p>
       </div>
