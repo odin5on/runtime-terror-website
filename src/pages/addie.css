@@ -1,0 +1,41 @@
+
+.split-container {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 1;
+    position: relative;
+  }
+  
+  .right-column {
+    flex: 1;
+    position: relative;
+  }
+
+  .paragraph {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .image-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    justify-content: space-around; 
+    margin-top: 1000px;
+    margin: 60px;
+  }
+
+  .image {
+    width: 25%; 
+    height: auto;
+    position: relative;
+  }
+
+  .margin {
+    display: flex;
+    margin: 60px;
+  }
