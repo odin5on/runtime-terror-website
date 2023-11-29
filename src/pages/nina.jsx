@@ -22,7 +22,7 @@ function Nina() {
         </div>
 
         <div style={{ marginRight: "1cm", marginLeft: "1cm" }}>
-        <img src = "src/pages/IMG_5860.jpeg" style = {{width: "300px", marginRight: "1cm", marginBottom: "1cm"}}/>
+        <img src = "src/pages/IMG_5860.jpeg" style = {{width: "250px", marginRight: "1cm", marginBottom: "1cm"}}/>
           <p style={{ fontSize: "17px" }}>Pictured here is me, my mom, and sisters at an Iowa game this year. They are my best friends and I would do anything for them. I love my family very much.</p>
         </div>
         
