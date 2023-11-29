@@ -22,12 +22,12 @@ function Nina() {
         </div>
 
         <div style={{ marginRight: "1cm", marginLeft: "1cm" }}>
-        <img src = "src/pages/IMG_5860.jpeg" style = {{width: "275px", marginRight: "1cm", marginBottom: "1cm"}}/>
+        <img src = "src/pages/IMG_5860.jpeg" style = {{width: "300px", marginRight: "1cm", marginBottom: "0.5cm"}}/>
           <p style={{ fontSize: "17px" }}>Pictured here is me, my mom, and sisters at an Iowa game this year. They are my best friends and I would do anything for them. I love my family very much.</p>
         </div>
         
         <div style={{ marginRight: "1cm", marginLeft: "1cm" }}>
-        <img src = "src/pages/IMG_8281.jpeg" style = {{width: "600px", marginRight: "1cm", marginBottom: "1cm"}}/>
+        <img src = "src/pages/IMG_8281.jpeg" style = {{width: "700px", marginRight: "1cm", marginBottom: "1cm"}}/>
           <p style={{ fontSize: "17px" }}>This is a picture of when I went to the Bahamas. I love traveling to new places and expanding my knowledge about different areas of the world. </p>
         </div>
       </div>
