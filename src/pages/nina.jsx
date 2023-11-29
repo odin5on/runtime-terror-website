@@ -4,7 +4,7 @@ function Nina() {
   return (
     <div>
       <div style={{ backgroundColor: "lightblue", padding: "10px", borderRadius: "5px", marginBottom: "10px", marginLeft: "1cm", marginRight: "1cm", display: "flex", alignItems: "center" }}>
-      <p style={{ fontWeight: "bold", fontSize: "17px",  marginBottom: "20px" }}>Nina Baffo</p>
+      <p style={{ fontWeight: "bold", fontSize: "17px",  marginTop: "5px" }}>Nina Baffo</p>
         <img src = {"src/assets/profilePic.png"} style = {{width: "250px"}}/>
  
         <p style={{ marginLeft: "1cm", fontWeight: "bold", fontSize: "17px"}}>About me:</p>
