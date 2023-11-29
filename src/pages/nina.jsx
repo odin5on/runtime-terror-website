@@ -19,11 +19,11 @@ function Nina() {
         <img src = "src/pages/IMG_3307.jpeg" style = {{width: "300px", marginRight: "1cm", marginBottom: "3cm"}} />
         <img src = "src/pages/IMG_5860.jpeg" style = {{width: "300px", marginRight: "1cm", marginBottom: "3cm"}}/>
         <img src = "src/pages/IMG_8281.jpeg" style = {{width: "450px", marginBottom: "3cm"}}/>
+      </div>
         <p style={{ fontSize: "17px", display: "flex", alignItems: "center" }}>Pictured above are a few of my favorite things to summarize a little more about myself. To the left is my puppy, his name is Benny and he just turned 8 months old. He is the best dog in the world, I take him with me everywhere.
           The center picture is me, my mom and sisters at an Iowa game this year. They are my best friends and I would do anything for them. I love my family very much.
           To the right is a picture of when I went to the Bahamas. I love traveling to new places and expanding my knowledge about different areas of the world. 
         </p>
-      </div>
     </div>
   );
 }
