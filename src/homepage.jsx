@@ -1,7 +1,7 @@
 import ContactCard from "./components/contactcard";
 
 import dannypicture from "./assets/danny.jpg";
-import NinasPics from "/Users/ninabaffo/runtime-terror-website/src/assets/NinasPics/profilePic.png";
+import NinasPics from "src/assets/profilePic.png";
 import sid from "./assets/sid.jpg";
 
 function HomePage() {

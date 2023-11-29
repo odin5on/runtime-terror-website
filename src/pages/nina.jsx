@@ -1,8 +1,8 @@
 import React from "react";
-import puppyPic from "src/assets/NinasPics/puppy.jpeg";
-import profile from "src/assets/NinasPics/profilePic.png";
-import familyPic from "src/assets/NinasPics/family.jpeg";
-import bahamasPic from "src/assets/NinasPics/bahamas.jpeg";
+import puppyPic from "src/assets/puppy.jpeg";
+import profile from "src/assets/profilePic.png";
+import familyPic from "src/assets/family.jpeg";
+import bahamasPic from "src/assets/bahamas.jpeg";
 
 function Nina() {
   return (
