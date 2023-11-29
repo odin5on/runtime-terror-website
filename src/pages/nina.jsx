@@ -10,7 +10,9 @@ function Nina() {
            style = {{width: "250px"}}
         />
       <p style={{ marginLeft: "1cm", marginBottom: "3cm", fontWeight: "bold", fontSize: "17px"}}>About me:</p>
-      <p style={{ marginLeft: "1cm", marginBottom: "1.5cm", fontSize: "17px"}}>Hi and welcome to my page! My name is Nina, I am a senior this year majoring in Computer Science and Engineering. I'm from the southwest suburbs of chicago. </p>
+      <p style={{ marginLeft: "1cm", marginBottom: "1.5cm", fontSize: "17px"}}>Hi and welcome to my page! My name is Nina, I'm from the southwest suburbs of chicago. I am a senior this year majoring in Computer Science and Engineering.
+      I started off college as a Math Education major, but switched to Engineering second semester my sophmore year. I was nervous at first, but I am really glad I decided to push myself and pursue something out of my comfort zone. 
+      I can't wait to see where my career takes me in the near future! </p>
       </div>
       <div style = {{marginTop: "2in", display: "flex", felxDirection: "column", alighnItems: "flex-end", paddingLeft: "2in"}}>
         <img src = "src/pages/IMG_3307.jpeg" 
