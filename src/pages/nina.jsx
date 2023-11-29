@@ -12,7 +12,7 @@ function Nina() {
  
         <p style={{ marginLeft: "1cm", fontWeight: "bold", fontSize: "17px"}}>About me:</p>
 
-        <p style={{ backgroundColor: "lightpink", padding: "10px", borderRadius: "5px", marginBottom: "10px", marginLeft: "1cm", marginRight: "1cm", marginBottom: "1.5cm", fontSize: "17px"}}>Hi and welcome to my page! My name is Nina, I'm from the southwest suburbs of chicago. I am a senior this year majoring in Computer Science and Engineering.
+        <p style={{ backgroundColor: "lightpink", padding: "10px", borderRadius: "5px", marginLeft: "1cm", marginRight: "1cm", marginBottom: "1.5cm", fontSize: "17px"}}>Hi and welcome to my page! My name is Nina, I'm from the southwest suburbs of chicago. I am a senior this year majoring in Computer Science and Engineering.
           I started off college as a Math Education major, but switched to Engineering second semester my sophmore year. I was nervous at first, but I am really glad I decided to push myself and pursue something out of my comfort zone. 
           I can't wait to see where my career takes me in the near future! </p>
       </div>
