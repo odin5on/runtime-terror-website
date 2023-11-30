@@ -12,7 +12,7 @@ const ContactCard = ({ name, picture, to }) => {
       className="h-full bg-slate-100 rounded-xl flex flex-col flex-grow hover:scale-105 cursor-pointer hover:bg-slate-200 transition-all duration-300"
       onClick={handleClick}
     >
-      <div className="p-8 flex items-center">
+      <div className="py-4 px-8 flex items-center">
         <img
           src={picture}
           alt="Profile Picture"
