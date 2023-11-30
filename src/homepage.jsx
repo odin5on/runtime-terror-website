@@ -5,13 +5,17 @@ import sid from "./assets/sid.jpg";
 
 function HomePage() {
   return (
-    <div className="flex justify-center items-center px-40">
-      <div className="grid grid-cols-2 gap-8 justify-center justify-items-center">
-        <ContactCard name="Danny Bodin" picture={dannypicture} to="/danny" />
-        <ContactCard name="Jordin Eicher" picture={sid} to="/jordin" />
-        <ContactCard name="Addie Schroeder" picture={sid} to="/addie" />
-        <ContactCard name="Nina Baffo" picture={sid} to="/nina" />
+    <div>
+      <div className="flex justify-center items-center px-40">
+        <div className="grid grid-cols-2 gap-8 justify-center justify-items-center">
+          <ContactCard name="Danny Bodin" picture={dannypicture} to="/danny" />
+          <ContactCard name="Jordin Eicher" picture={sid} to="/jordin" />
+          <ContactCard name="Addie Schroeder" picture={sid} to="/addie" />
+          <ContactCard name="Nina Baffo" picture={sid} to="/nina" />
+        </div>
       </div>
+      <script defer src="https://cdn.commento.io/js/commento.js"></script>
+      <div id="commento"></div>
     </div>
   );
 }
