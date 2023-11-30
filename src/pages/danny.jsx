@@ -4,10 +4,10 @@ import sidpicture from "../assets/sid.jpg";
 
 function Danny() {
   const carouselItems = [
-    { src: sidpicture, alt: 'Sid' },
-    { src: sidpicture, alt: 'Sid' },
-    { src: sidpicture, alt: 'Sid' },
-    { src: sidpicture, alt: 'Sid' },
+    { src: sidpicture, alt: "Sid" },
+    { src: sidpicture, alt: "Sid" },
+    { src: sidpicture, alt: "Sid" },
+    { src: sidpicture, alt: "Sid" },
   ];
 
   return (
@@ -38,6 +38,8 @@ function Danny() {
       <div className="w-full bg-slate-100 py-16 mt-16">
         <InfiniteCarousel items={carouselItems} />
       </div>
+      <script defer src="https://cdn.commento.io/js/commento.js"></script>
+      <div id="commento"></div>
     </div>
   );
 }
