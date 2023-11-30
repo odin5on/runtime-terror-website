@@ -1,3 +1,4 @@
+import Commento from "../components/commento";
 import InfiniteCarousel from "../components/infinitecarousel";
 import dannypicture from "../assets/danny.jpg";
 import sidpicture from "../assets/sid.jpg";
@@ -38,6 +39,7 @@ function Danny() {
       <div className="w-full bg-slate-100 py-16 mt-16">
         <InfiniteCarousel items={carouselItems} />
       </div>
+      <Commento id={1} />
     </div>
   );
 }
