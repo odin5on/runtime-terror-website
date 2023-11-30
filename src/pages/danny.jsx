@@ -39,7 +39,9 @@ function Danny() {
       <div className="w-full bg-slate-100 py-16 mt-16">
         <InfiniteCarousel items={carouselItems} />
       </div>
-      <Commento id={1} />
+      <div className="my-8 mx-40">
+        <Commento id={1} />
+      </div>
     </div>
   );
 }
