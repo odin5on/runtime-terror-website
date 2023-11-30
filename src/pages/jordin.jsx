@@ -1,17 +1,25 @@
 import React from "react";
 import './styles.css';
 import profile from "./profile.jpg";
+import image1 from "./image1.png";
+import image2 from "./image2.png";
+
+import image4 from "./image4.png";
+import tech from "./tech.jpg";
+import HorizontalSlideshow from "./HorizontalSlideshow";
 
 
 // Create a functional component for the personal profile page
 const Jordin = () => {
+  const images=[image4,image2,image1,tech];
+  
   return (
     <div className="profile-page">
       {/* Header Section */}
       <header>
         <div className="profile-picture">
           {/* You can replace the placeholder image URL with your own */}
-          <img src= {profile} alt="Profile" />
+          <img src= {image1} alt="Profile" />
         </div>
         <div className="header-text">
           <h1><strong>Jordin Eicher</strong></h1>
@@ -26,7 +34,7 @@ const Jordin = () => {
         <h2>About Me</h2>
         <p>
           <i>
-          I am an Electrical Engineering major at the University of Iowa with focus in IoT. I have interned at Collins Aerospace in the Communications Hardware department and will start full-time as a Hardware Design Engineer (EE) following graduation. In my freetime, I enjoy watching MMA, learning history and philosophy, tinkering with electronics, and running.
+          I am an Electrical Engineering major at the University of Iowa with focus in IoT. I have interned at Collins Aerospace in the Communications Hardware department and will start full-time as a Hardware Design Engineer following graduation. In my freetime, I enjoy watching MMA, learning history and philosophy, tinkering with electronics, and running.
           </i>
         </p>
       </section>
@@ -41,17 +49,14 @@ const Jordin = () => {
       </section>
       
 
-      {/* Projects Section */}
+      {/* Slideshow Section */}
       <section className="projects">
-        <h2>Projects</h2>
-        <div className="project">
-          <h3>Project 1</h3>
-          <p>Description of Project 1.</p>
-        </div>
-        <div className="project">
-          <h3>Project 2</h3>
-          <p>Description of Project 2.</p>
-        </div>
+        
+        
+          <h1>Image1-3: Hiking, Image4: Tech stuff</h1>
+          <HorizontalSlideshow images={images} />
+        
+        
       </section>
      
 
@@ -74,7 +79,8 @@ const Jordin = () => {
       <footer>
         <p>&copy; 2023 Runtime Terror. All rights reserved.</p>
       </footer>
-      </div>
+    </div>
+    
   );
 };
 

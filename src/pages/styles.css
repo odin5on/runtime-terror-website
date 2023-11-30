@@ -46,6 +46,7 @@ body {
   .contact a {
     color:#184c7e;
   }
+
   header h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-large;
@@ -90,6 +91,49 @@ body {
   
   .project {
     margin-bottom: 15px;
+  }
+
+  .slideshow-container {
+    width: 100%;
+    max-height:min-content;
+    overflow: hidden;
+    white-space: nowrap;
+    position:relative;
+    outline: black auto 10px;
+    
+  }
+  .slides{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+
+    }
+  .slide{
+    flex: 0 0 50%;
+    max-width:fit-content;
+    max-height: min-content;
+  }
+  
+  .prev,
+  .next {
+    top: 50%;
+    position: absolute;
+  
+    transform: translateY(-50%);
+    
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    background: #a49a9a;
+    border: none;
+    outline: none;
+  }
+
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
   }
   
   footer {

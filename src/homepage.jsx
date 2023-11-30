@@ -2,7 +2,7 @@ import ContactCard from "./components/contactcard";
 
 import dannypicture from "./assets/danny.jpg";
 import sid from "./assets/sid.jpg";
-import profile from "./pages/profile.jpg";
+import profile from "./pages/image4.png";
 
 function HomePage() {
   return (
