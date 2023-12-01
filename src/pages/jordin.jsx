@@ -1,5 +1,5 @@
 import React from "react";
-import './styles.css';
+import './jordin.css';
 import profile from "./profile.jpg";
 import image1 from "./image1.png";
 import image2 from "./image2.png";
@@ -14,9 +14,9 @@ const Jordin = () => {
   const images=[image4,image2,image1,tech];
   
   return (
-    <div className="profile-page">
+    <div className="profile-page body">
       {/* Header Section */}
-      <header>
+      <header className="header">
         <div className="profile-picture">
           {/* You can replace the placeholder image URL with your own */}
           <img src= {image1} alt="Profile" />
@@ -31,8 +31,8 @@ const Jordin = () => {
 
       {/* About Me Section */}
       <section className="about-me">
-        <h2>About Me</h2>
-        <p>
+        <h2 className="h2">About Me</h2>
+        <p className="p">
           <i>
           I am an Electrical Engineering major at the University of Iowa with focus in IoT. I have interned at Collins Aerospace in the Communications Hardware department and will start full-time as a Hardware Design Engineer following graduation. In my freetime, I enjoy watching MMA, learning history and philosophy, tinkering with electronics, and running.
           </i>
@@ -43,8 +43,8 @@ const Jordin = () => {
       {/* Skills Section */}
       <section className="skills">
         <h2>Favorite Quote</h2>
-        <ul>
-          <li><i>"All the time people ask me, 'Brother, what are you proud of?', I say, I am very proud of... I never give up." - Khabib Nurmagomedov</i></li>
+        <ul className="ul">
+          <li className="li"><i>"All the time people ask me, 'Brother, what are you proud of?', I say, I am very proud of... I never give up." - Khabib Nurmagomedov</i></li>
         </ul>
       </section>
       

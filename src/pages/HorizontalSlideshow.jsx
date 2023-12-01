@@ -1,6 +1,6 @@
 // HorizontalSlideshow.jsx
 import React, { useState } from 'react';
-import './styles.css';
+import './jordin.css';
 
 const HorizontalSlideshow = ({ images }) => {
   const [slideIndex, setSlideIndex] = useState(0);
