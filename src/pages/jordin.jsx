@@ -1,4 +1,5 @@
 import React from "react";
+import Commento from "../components/commento";
 import './jordin.css';
 import profile from "./profile.jpg";
 import image1 from "./image1.png";
@@ -74,7 +75,9 @@ const Jordin = () => {
         </dl>
         </div>
       </section>
-
+      <div className="my-8 mx-40">
+        <Commento id={3} />
+      </div>
       {/* Footer Section */}
       <footer>
         <p>&copy; 2023 Runtime Terror. All rights reserved.</p>

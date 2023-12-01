@@ -1,5 +1,6 @@
 import React from "react";
 import "./addie.css";
+import Commento from "../components/commento";
 
 import image1 from './addie_pics/kev.jpeg';
 import image2 from './addie_pics/roomies.jpeg';
@@ -47,7 +48,9 @@ function Addie() {
         <img src={image2} alt="Roomies" className="image" />
         <img src={image3} alt="Dance" className="image" />
       </div>
-    
+      <div className="my-8 mx-40">
+        <Commento id={2} />
+      </div>
     </div>
      
    

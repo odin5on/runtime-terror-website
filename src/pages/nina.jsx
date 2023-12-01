@@ -1,4 +1,5 @@
 import React from "react";
+import Commento from "../components/commento";
 import bahamas from "../assets/bahamas.jpeg";
 import family from "../assets/family.jpeg";
 import puppy from "../assets/puppy.jpeg";
@@ -33,6 +34,9 @@ function Nina() {
         <img src = {bahamas} style = {{width: "800px", marginRight: "1cm", marginBottom: "1cm"}}/>
           <p style={{ fontSize: "17px" }}>This is a picture of when I went to the Bahamas. I love traveling to new places and expanding my knowledge about different areas of the world. </p>
         </div>
+      </div>
+      <div className="my-8 mx-40">
+        <Commento id={3} />
       </div>
     </div>
   );
