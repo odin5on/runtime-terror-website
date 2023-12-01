@@ -1,11 +1,11 @@
 import React from "react";
-import "./addie.css";
+import "../styles/addie.css";
 import Commento from "../components/commento";
 
-import image1 from './addie_pics/kev.jpeg';
-import image2 from './addie_pics/roomies.jpeg';
-import image3 from './addie_pics/dance.jpeg';
-import profilePic from './addie_pics/cover_pic.png';
+import image1 from '../assets/addie_pics/kev.jpeg';
+import image2 from '../assets/addie_pics/roomies.jpeg';
+import image3 from '../assets/addie_pics/dance.jpeg';
+import profilePic from '../assets/addie_pics/cover_pic.png';
 
 function Addie() {
   return (

@@ -4,7 +4,7 @@ import { Navigate, Outlet, useLocation } from 'react-router-dom';
 
 // Import your other pages and the Navbar
 import Navbar from "./components/navbar";
-import HomePage from "./homepage";
+import HomePage from "./pages/homepage";
 import Danny from "./pages/danny";
 import Jordin from "./pages/jordin";
 import Addie from "./pages/addie";

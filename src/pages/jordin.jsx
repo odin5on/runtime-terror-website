@@ -1,13 +1,13 @@
 import React from "react";
 import Commento from "../components/commento";
-import './jordin.css';
-import profile from "./profile.jpg";
-import image1 from "./image1.png";
-import image2 from "./image2.png";
+import '../styles/jordin.css';
+import profile from "../assets/profile.jpg";
+import image1 from "../assets/image1.png";
+import image2 from "../assets/image2.png";
 
-import image4 from "./image4.png";
-import tech from "./tech.jpg";
-import HorizontalSlideshow from "./HorizontalSlideshow";
+import image4 from "../assets/image4.png";
+import tech from "../assets/tech.jpg";
+import HorizontalSlideshow from "../components/HorizontalSlideshow";
 
 
 // Create a functional component for the personal profile page

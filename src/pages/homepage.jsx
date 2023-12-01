@@ -1,9 +1,9 @@
-import ContactCard from "./components/contactcard";
+import ContactCard from "../components/contactcard";
 
-import dannypicture from "./assets/danny.jpg";
-import NinasPic from "./assets/profilePic.png";
-import profile from "./pages/image4.png";
-import addieprofile from "./pages/addie_pics/cover_pic.png";
+import dannypicture from "../assets/danny.jpg";
+import NinasPic from "../assets/profilePic.png";
+import profile from "../assets/image4.png";
+import addieprofile from "../assets/addie_pics/cover_pic.png";
 
 const dannybio = { major: "CSE", hometown: "Iowa City, IA", dreamjob: "Photographer for Redbull" };
 const jordinbio = { major: "EE", hometown: "Cedar Rapids, IA", dreamjob: "A spy" };
