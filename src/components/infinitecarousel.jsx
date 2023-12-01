@@ -29,7 +29,7 @@ const InfiniteCarousel = ({ items }) => {
           <img
             src={item.src}
             alt={item.alt}
-            style={{ width: "300px", height: "300px" }}
+            style={{ width: "300px", height: "300px", objectFit: "cover" }}
           />
         </div>
       ))}
@@ -42,7 +42,7 @@ const InfiniteCarousel = ({ items }) => {
           <img
             src={item.src}
             alt={item.alt}
-            style={{ width: "300px", height: "300px" }}
+            style={{ width: "300px", height: "300px", objectFit: "cover" }}
           />
         </div>
       ))}

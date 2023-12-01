@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const ContactCard = ({ name, picture, to }) => {
+const ContactCard = ({ name, picture, to, major, hometown, dreamjob }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -9,7 +9,7 @@ const ContactCard = ({ name, picture, to }) => {
 
   return (
     <div
-      className="h-full bg-slate-100 rounded-xl flex flex-col flex-grow hover:scale-105 cursor-pointer hover:bg-slate-200 transition-all duration-300"
+      className="h-full bg-slate-100 rounded-xl flex flex-col flex-grow hover:scale-105 cursor-pointer hover:bg-slate-200 transition-all duration-300 w-full"
       onClick={handleClick}
     >
       <div className="py-4 px-8 flex items-center">
@@ -19,8 +19,11 @@ const ContactCard = ({ name, picture, to }) => {
           className="rounded-full w-36 h-36 border-4 border-blue-500"
         />
         <p className="text-lg pl-8">
-          Here is a little info about me! Click on this card to learn more about
-          me!
+          <em>Major:</em> {major}
+          <br/>
+          <em>Hometown:</em> {hometown}
+          <br/>
+          <em>Dream Job:</em> {dreamjob}
         </p>
       </div>
       <div className="pl-8 pb-8">

@@ -1,14 +1,17 @@
 import Commento from "../components/commento";
 import InfiniteCarousel from "../components/infinitecarousel";
 import dannypicture from "../assets/danny.jpg";
-import sidpicture from "../assets/sid.jpg";
+import d1 from "../assets/d1.jpeg";
+import d2 from "../assets/d2.jpg";
+import d3 from "../assets/d3.jpeg";
+import d4 from "../assets/d4.jpeg";
 
 function Danny() {
   const carouselItems = [
-    { src: sidpicture, alt: "Sid" },
-    { src: sidpicture, alt: "Sid" },
-    { src: sidpicture, alt: "Sid" },
-    { src: sidpicture, alt: "Sid" },
+    { src: d1, alt: "Fishing with Cassidy" },
+    { src: d2, alt: "My Family" },
+    { src: d3, alt: "Trout Fishing" },
+    { src: d4, alt: "Snowboarding with Cassidy" },
   ];
 
   return (
@@ -27,12 +30,19 @@ function Danny() {
             <h6 className="text-lg text-gray-500">Developer</h6>
           </div>
         </div>
-        <div className="m-4">
+        <div className="my-4 mx-8">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
-            laudantium nam quo fugiat. Eius fugit, consequuntur nisi deserunt
-            beatae odio natus cupiditate exercitationem necessitatibus
-            perspiciatis aliquid praesentium. Voluptatum, velit repellendus!
+            Hello! I am a senior majoring in CSE and minoring in Business
+            Administration. I am from Iowa City so this is my real home! As a
+            CSE major I hope to get a job in software development. I have some
+            experience so far with web development in the University of Iowa IT
+            department, developing for Prof. Stump on his StarExec project, and
+            developing a time tracking app for All American Concrete. <br />
+            <br />
+            Outside of school I am happily married to my wife Cassidy, we have
+            been married for 1.5 years! In my free time I enjoy golfing, fishing
+            and snowboarding. Since I am from the area I also spend a lot of
+            time with my family. <br /><br />SDG
           </p>
         </div>
       </div>
