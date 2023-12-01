@@ -21,14 +21,23 @@ function Navbar({ onSignIn, onSignUp, onSignOut, currentUser }) {
     setIsModalOpen(false);
   };
 
-  const test = () => {
+  const signin = () => {
     onSignIn(email, password);
     console.log("sign in");
+    closeModal();
   };
 
-  const out = () => {
+  const signout = () => {
     onSignOut();
     console.log("sign out");
+    closeModal();
+  };
+
+  const signup = () => {
+    onSignUp(email, password);
+    console.log("sign out");
+    closeModal();
+    
   };
 
   const handleEmailChange = (e) => {
@@ -49,7 +58,7 @@ function Navbar({ onSignIn, onSignUp, onSignOut, currentUser }) {
           className="text-2xl border-2 border-black bg-slate-100 p-2 rounded-lg mr-16 hover:scale-110 cursor-pointer hover:bg-slate-200 transition-all duration-300"
           onClick={handleClick}
         >
-          Sign In
+          {currentUser ? "Log Out" : "Sign In"}
         </button>
       </div>
       {isModalOpen && (
@@ -122,16 +131,23 @@ function Navbar({ onSignIn, onSignUp, onSignOut, currentUser }) {
                       </div>
                     </div>
 
-                    <div className="flex">
+                    <div className="flex my-8 gap-2">
                       <button
                         type="submit"
-                        onClick={test}
+                        onClick={signin}
                         className="flex w-full justify-center rounded-md bg-blue-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                       >
-                        Sign in
+                        Sign In
                       </button>
                       <button
-                        onClick={out}
+                        type="submit"
+                        onClick={signup}
+                        className="flex w-full justify-center rounded-md bg-blue-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                      >
+                        Sign Up
+                      </button>
+                      <button
+                        onClick={signout}
                         className="flex w-full justify-center rounded-md bg-slate-300 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-slate-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600"
                       >
                         Sign Out
